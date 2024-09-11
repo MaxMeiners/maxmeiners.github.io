@@ -1,16 +1,20 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Get to know me a little better
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Max Meiners. I'm currently a 3rd year Applied Data Science & Artificial Intelligence student at Breda University of Applied Sciences, which is located in Breda, Netherlands. I have a passion for technology and innovation. Here are a few things about me:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+- I love diving into complex data problems and finding solutions through machine learning.
+- Staying active is important to me—I make time to work out regularly.
+- I'm constantly learning and growing, both in tech and in life.
+- I enjoy exploring new technologies and figuring out how they can solve real-world problems.
+- I'm always looking for new ways to challenge myself and push my limits.
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I’ve always been curious about how things work, which led me to pursue a degree in Applied Data Science & AI. Combining analytical thinking with creativity is something that drives me, whether it's building a new model or learning a new skill. When I’m not immersed in code or hitting the gym, I enjoy exploring new technologies and figuring out how they can solve real-world problems.
+
+Want to see some of the projects I’ve worked on? Check them out on my [GitHub](https://github.com/maxmeiners).
+
