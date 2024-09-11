@@ -21,7 +21,7 @@ author: Max Meiners
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  Projects:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
@@ -32,10 +32,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: '/Users/maxmeiners/Documents/Personal GitHub repos/Cropped_Image.png'
+avatar: "/Users/maxmeiners/Documents/Personal GitHub repos/Cropped_Image.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -52,6 +52,7 @@ round-avatar: true
 social-network-links:
   email: "maxmeiners@hotmail.com"
   facebook: maxmeiners5
+  instagram: max.meiners
   github: maxmeiners
   linkedin: max-meiners-48068624b/
   # twitter: daattali
@@ -64,7 +65,6 @@ social-network-links:
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
