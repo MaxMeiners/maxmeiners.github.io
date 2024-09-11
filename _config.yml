@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: My portfolio
 
 # Your name to show in the footer
-author: Some Person
+author: Max Meiners
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: '/Users/maxmeiners/Documents/Personal GitHub repos/B45D7DF9-B319-42FC-9665-44468A39B4D9_1_201_a.jpeg'
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
