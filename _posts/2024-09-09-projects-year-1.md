@@ -14,31 +14,22 @@ author: Max Meiners
 
 ### Project 1: **SDG Indicators Data Analysis and Visualization**
 
-This project focused on analyzing a dataset containing global Sustainable Development Goals (SDG) indicators, which are designed to track the progress of various countries towards meeting the United Nations' SDG targets. Our primary goal was to derive insights from this dataset and present them visually using a Power BI dashboard. 
+For this project, I was given the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on **SDG 2: Zero Hunger**, specifically looking at the relationship between GDP per capita (a measure of a country’s wealth) and undernourishment or malnutrition rates in African countries. The goal of my analysis was to see if a country’s wealth, as measured by GDP per capita, had a strong impact on reducing malnutrition across the continent.
 
-The dataset included various metrics, such as poverty rates, environmental sustainability, health, and education indicators. By processing and visualizing these data points, we aimed to highlight key trends and compare progress between countries over time. 
+The **Sustainable Development Goals (SDGs)**, especially SDG 2, aim to end hunger and malnutrition around the world. While progress has been made, undernourishment is still a big problem in many parts of Africa. Factors like poverty, conflict, and environmental challenges, such as drought, contribute to ongoing food insecurity. By studying the connection between a country’s economy and its ability to fight hunger, this project aimed to find trends that could lead to better solutions for reducing malnutrition.
 
-**Project Scope:**
-- **Data Source**: SDG indicators dataset (provided by the instructor) containing multi-year data for different countries across a range of SDG targets.
-- **Objective**: Analyze the dataset to extract insights related to the progress of countries towards their SDG goals, and visualize the data to make it accessible and comprehensible for stakeholders.
+**Research Question:**
+- **What is the correlation between GDP per capita and undernourishment/malnutrition in the continent of Africa?**
 
-**Steps Taken**:
-1. **Data Cleaning and Preprocessing**:  
-   The raw dataset contained missing values and inconsistencies, which required cleaning and preprocessing. I used Python libraries such as Pandas and NumPy to handle missing values, normalize country names, and ensure uniformity across all indicators.
+**Key Findings:**
+- Nearly 10% of people worldwide are malnourished, with most of them living in Sub-Saharan Africa.
+- The region’s malnutrition problem is worsened by economic struggles, conflict, and natural disasters like drought.
+- By analyzing the data, I aimed to understand if wealthier countries are more successful in reducing hunger and how economic differences affect hunger rates.
 
-2. **Exploratory Data Analysis (EDA)**:  
-   After preprocessing, I performed exploratory data analysis to identify patterns, correlations, and trends. Key questions included:
-   - Which countries are on track to meet their SDG goals?
-   - How do SDG progress trends vary between developed and developing nations?
-   - Are there specific regions lagging behind in certain goals (e.g., education or poverty eradication)?
-
-3. **Visualization**:  
-   Using Power BI, I created interactive visualizations that allowed users to explore different SDG indicators across countries and over time. The dashboard provides an overview of global SDG progress and detailed comparisons between countries on specific indicators, such as health, education, and environmental sustainability.
-
-**Skills Achieved**:
-- **Data cleaning and preprocessing** with Python (Pandas, NumPy).
-- **Exploratory Data Analysis (EDA)** to identify key trends and insights from the SDG dataset.
-- **Data visualization** using Power BI to build a dashboard that effectively communicates the results of our analysis.
+**Skills Gained:**
+- **Data cleaning and preparation** in Power BI to make sure the dataset was ready for analysis.
+- **Exploratory Data Analysis (EDA)** to spot key trends and connections between GDP per capita and undernourishment rates.
+- **Data visualization** using Power BI to create an interactive dashboard that clearly presents the insights and results of the analysis, allowing users to explore the link between GDP and hunger in different African countries.
 
 ### Dashboard
 
