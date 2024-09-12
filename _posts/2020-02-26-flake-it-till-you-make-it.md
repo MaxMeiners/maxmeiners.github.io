@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About Me
 subtitle: Data Science & AI Enthusiast
 gh-repo: maxmeiners/maxmeiners.github.io
