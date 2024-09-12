@@ -1,12 +1,7 @@
 ---
 layout: page
-title: About Me
-subtitle: Get to know me
-gh-repo: maxmeiners
-gh-badge: [star, fork, follow]
-tags: [introduction, cv]
-comments: true
-author: Max Meiners
+title: About me
+subtitle: Get to know me a little better
 ---
 
 My name is Max Meiners. I'm currently a 3rd year Applied Data Science & Artificial Intelligence student at Breda University of Applied Sciences, which is located in Breda, Netherlands. I have a passion for technology and innovation. Here are a few things about me:
