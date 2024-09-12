@@ -32,10 +32,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/Users/maxmeiners/Documents/Personal GitHub repos/Cropped_Image.png"
+avatar: "assets/img/Cropped_Image.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: false
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -51,17 +51,16 @@ round-avatar: false
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "maxmeiners@hotmail.com"
-  facebook: maxmeiners5
-  instagram: max.meiners
   github: maxmeiners
   linkedin: max-meiners-48068624b/
+  facebook: maxmeiners5
+  instagram: max.meiners
   # twitter: daattali
   # patreon: DeanAttali
   # youtube: "@daattali"
   # whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -85,7 +84,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
