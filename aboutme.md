@@ -18,3 +18,18 @@ I’ve always been curious about how things work, which led me to pursue a degre
 
 Want to see some of the projects I’ve worked on? Check them out on my [GitHub](https://github.com/maxmeiners).
 
+---
+
+### My CV
+
+You can view my full CV below:
+
+<iframe src="/assets/cv/Max_Meiners_CV_.pdf" width="100%" height="600px">
+  Your browser does not support iframes. You can download the CV using the button below.
+</iframe>
+
+---
+
+### Download My CV
+
+[Download My CV](assets/cv/Max_Meiners_CV.pdf){: .btn}
