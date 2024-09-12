@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Data Science & AI Enthusiast
+subtitle: Get to know me
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
 tags: [introduction, cv]
@@ -19,7 +19,7 @@ My name is Max Meiners. I'm currently a 3rd year Applied Data Science & Artifici
 
 ### My story
 
-I’ve always been curious about how things work, which led me to pursue a degree in Applied Data Science & AI. Combining analytical thinking with creativity is something that drives me, whether it's building a new model or learning a new skill. When I’m not immersed in code or hitting the gym, I enjoy exploring new technologies and figuring out how they can solve real-world problems.
+I’ve always been curious about how things work, which led me to pursue a degree in Applied Data Science & AI. Combining analytical thinking with creativity is something that drives me, whether it's building a new model or learning a new skill. When I’m not immersed in code or playing Padel, I enjoy exploring new technologies and figuring out how they can solve real-world problems.
 
 Want to see some of the projects I’ve worked on? Check them out on my [GitHub](https://github.com/maxmeiners).
 
