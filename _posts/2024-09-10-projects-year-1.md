@@ -69,12 +69,25 @@ author: Max Meiners
   <label for="project1">Project 1: SDG Indicators Data Analysis and Visualization</label>
   <div class="content">
     <h3>Project 1: <strong>SDG Indicators Data Analysis and Visualization</strong></h3>
-    <p>For this project, I was given the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita and undernourishment or malnutrition rates in African countries.</p>
+    <p>For this project, we had the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita (a measure of a country’s wealth) and undernourishment or malnutrition rates in African countries. The goal of my analysis was to see if a country’s wealth, as measured by GDP per capita, had a strong impact on reducing malnutrition across the continent.</p>
 
-    <p><strong>Key Findings:</strong></p>
+    <p>The <strong>Sustainable Development Goals (SDGs)</strong>, especially SDG 2, aim to end hunger and malnutrition around the world. While progress has been made, undernourishment is still a big problem in many parts of Africa. Factors like poverty, conflict, and environmental challenges, such as drought, contribute to ongoing food insecurity. By studying the connection between a country’s economy and its ability to fight hunger, this project aimed to find trends that could lead to better solutions for reducing malnutrition.</p>
+
+    <h4>Research Question:</h4>
+    <p><strong>What is the relationship between GDP per capita and undernourishment/malnutrition in Africa?</strong></p>
+
+    <h4>Key Findings:</h4>
     <ul>
       <li>Nearly 10% of people worldwide are malnourished, with most of them living in Sub-Saharan Africa.</li>
       <li>The region’s malnutrition problem is worsened by economic struggles, conflict, and natural disasters like drought.</li>
+      <li>By analyzing the data, I aimed to understand if wealthier countries are more successful in reducing hunger and how economic differences affect hunger rates.</li>
+    </ul>
+
+    <h4>Skills Gained:</h4>
+    <ul>
+      <li><strong>Data cleaning and preparation</strong> in Power BI to make sure the dataset was ready for analysis.</li>
+      <li><strong>Exploratory Data Analysis (EDA)</strong> to spot key trends and connections between GDP per capita and undernourishment rates.</li>
+      <li><strong>Data visualization</strong> using Power BI to create an interactive dashboard that clearly presents the insights and results of the analysis, allowing users to explore the link between GDP and hunger in different African countries.</li>
     </ul>
 
     <h4>Dashboard</h4>
