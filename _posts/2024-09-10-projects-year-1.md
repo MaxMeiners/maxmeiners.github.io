@@ -14,6 +14,14 @@ author: Max Meiners
 
 <style>
   .accordion {
+    margin-bottom: 1em;
+  }
+
+  .accordion input[type="checkbox"] {
+    display: none;
+  }
+
+  .accordion label {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -23,85 +31,78 @@ author: Max Meiners
     text-align: left;
     outline: none;
     font-size: 18px;
-    transition: 0.4s;
-    margin-bottom: 5px;
+    transition: background-color 0.4s ease;
+    display: block;
   }
 
-  .accordion.active, .accordion:hover {
+  .accordion label:hover {
     background-color: #ccc;
   }
 
-  .accordion:after {
-    content: '\002B'; /* Plus sign */
-    color: #777;
-    font-weight: bold;
+  .accordion label:after {
+    content: '+';
     float: right;
   }
 
-  .accordion.active:after {
-    content: "\2212"; /* Minus sign */
+  .accordion input:checked + label:after {
+    content: '-';
   }
 
-  .panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
+  .accordion input:checked + label + .content {
+    max-height: 1000px; /* Adjust depending on the content height */
+    padding: 18px;
+    border-top: 1px solid #ddd;
+  }
+
+  .accordion .content {
+    max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-
-  .panel.show {
-    display: block;
+    transition: max-height 0.4s ease;
+    background-color: #f9f9f9;
   }
 </style>
 
 <h2>Year 1 Projects</h2>
 
-<button class="accordion">Project 1: SDG Indicators Data Analysis and Visualization</button>
-<div class="panel">
-  <h3>Project 1: <strong>SDG Indicators Data Analysis and Visualization</strong></h3>
-  <p>For this project, I was given the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita and undernourishment or malnutrition rates in African countries. The goal of my analysis was to see if a country’s wealth had a strong impact on reducing malnutrition across the continent.</p>
+<div class="accordion">
+  <input type="checkbox" id="project1" />
+  <label for="project1">Project 1: SDG Indicators Data Analysis and Visualization</label>
+  <div class="content">
+    <h3>Project 1: <strong>SDG Indicators Data Analysis and Visualization</strong></h3>
+    <p>For this project, I was given the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita and undernourishment or malnutrition rates in African countries.</p>
 
-  <p><strong>Key Findings:</strong></p>
-  <ul>
-    <li>Nearly 10% of people worldwide are malnourished, with most of them living in Sub-Saharan Africa.</li>
-    <li>Economic struggles, conflict, and natural disasters like drought worsen the malnutrition problem in this region.</li>
-    <li>The analysis explores whether wealthier countries are more successful in reducing hunger.</li>
-  </ul>
+    <p><strong>Key Findings:</strong></p>
+    <ul>
+      <li>Nearly 10% of people worldwide are malnourished, with most of them living in Sub-Saharan Africa.</li>
+      <li>The region’s malnutrition problem is worsened by economic struggles, conflict, and natural disasters like drought.</li>
+    </ul>
 
-  <h4>Dashboard</h4>
-  <p>Below is the interactive Power BI dashboard that was the final deliverable for this project.</p>
-  <iframe title="SDGIndicatorsDashboard_MaxMeiners" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNWQyNDgwNTItMThiMC00MWVlLTgwMzYtNDAzMmU2ODJlODc2IiwidCI6IjBhMzM1ODliLTAwMzYtNGZlOC1hODI5LTNlZDA5MjZhZjg4NiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+    <h4>Dashboard</h4>
+    <p>Below is the interactive Power BI dashboard that was the final deliverable for this project.</p>
+    <iframe title="SDGIndicatorsDashboard_MaxMeiners" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNWQyNDgwNTItMThiMC00MWVlLTgwMzYtNDAzMmU2ODJlODc2IiwidCI6IjBhMzM1ODliLTAwMzYtNGZlOC1hODI5LTNlZDA5MjZhZjg4NiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+  </div>
 </div>
 
-<button class="accordion">Project 2: Coming Soon</button>
-<div class="panel">
-  <p>More projects will be added soon...</p>
+<div class="accordion">
+  <input type="checkbox" id="project2" />
+  <label for="project2">Project 2: Coming Soon</label>
+  <div class="content">
+    <p>More projects will be added soon...</p>
+  </div>
 </div>
 
-<button class="accordion">Project 3: Coming Soon</button>
-<div class="panel">
-  <p>More projects will be added soon...</p>
+<div class="accordion">
+  <input type="checkbox" id="project3" />
+  <label for="project3">Project 3: Coming Soon</label>
+  <div class="content">
+    <p>More projects will be added soon...</p>
+  </div>
 </div>
 
-<button class="accordion">Project 4: Coming Soon</button>
-<div class="panel">
-  <p>More projects will be added soon...</p>
+<div class="accordion">
+  <input type="checkbox" id="project4" />
+  <label for="project4">Project 4: Coming Soon</label>
+  <div class="content">
+    <p>More projects will be added soon...</p>
+  </div>
 </div>
-
-<script>
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-  }
-</script>
