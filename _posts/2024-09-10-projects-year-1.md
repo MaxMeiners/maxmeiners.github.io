@@ -48,17 +48,17 @@ author: Max Meiners
     content: '-';
   }
 
-  .accordion input:checked + label + .content {
-    max-height: 1000px; /* Adjust depending on the content height */
-    padding: 18px;
-    border-top: 1px solid #ddd;
-  }
-
   .accordion .content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease;
     background-color: #f9f9f9;
+  }
+
+  .accordion input:checked + label + .content {
+    max-height: 1000px;
+    padding: 18px;
+    border-top: 1px solid #ddd;
   }
 </style>
 
@@ -69,7 +69,7 @@ author: Max Meiners
   <label for="project1">Project 1: SDG Indicators Data Analysis and Visualization</label>
   <div class="content">
     <h3>Project 1: <strong>SDG Indicators Data Analysis and Visualization</strong></h3>
-    <p>For this project, we had the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita (a measure of a country’s wealth) and undernourishment or malnutrition rates in African countries. The goal of my analysis was to see if a country’s wealth, as measured by GDP per capita, had a strong impact on reducing malnutrition across the continent.</p>
+    <p>For this project, I was given the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita (a measure of a country’s wealth) and undernourishment or malnutrition rates in African countries. The goal of my analysis was to see if a country’s wealth, as measured by GDP per capita, had a strong impact on reducing malnutrition across the continent.</p>
 
     <p>The <strong>Sustainable Development Goals (SDGs)</strong>, especially SDG 2, aim to end hunger and malnutrition around the world. While progress has been made, undernourishment is still a big problem in many parts of Africa. Factors like poverty, conflict, and environmental challenges, such as drought, contribute to ongoing food insecurity. By studying the connection between a country’s economy and its ability to fight hunger, this project aimed to find trends that could lead to better solutions for reducing malnutrition.</p>
 
