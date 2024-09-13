@@ -139,6 +139,13 @@ author: Max Meiners
     <p>
       As part of this project, I also developed a small (non-working) application for users to what kind of animal they have spotted. The app is called "In the W(A.)I.ld". The application would then classify the animal and display the area of the image that the model paid the most attention to in order to classify it into its specific class. In addition, the app included a small game, where users were given an animal image and had to assign it to one of the six classes (Cheetah, Fox, Hyena, Lion, Tiger, Wolf). This interactive feature was designed to make the project more engaging while demonstrating the practical use of the CNN model. The interactive application I created, can be seen when clicking this link: .
     </p>
+
+    <h4>Interactive Application</h4>
+    <p>
+      Below is the interactive application I created. You can try the app here:
+    </p>
+    
+    <iframe src="assets/app/fullscreen.html" width="800" height="600"></iframe>
     
     <h4>Key Findings:</h4>
     <ul>
