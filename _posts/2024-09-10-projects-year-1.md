@@ -137,7 +137,7 @@ author: Max Meiners
     <p>This project involved developing a Convolutional Neural Network (CNN) model to classify images of different animal species using TensorFlow and Keras. I specifically chose to build an image classifier capable of distinguishing between cheetahs, foxes, hyenas, lions, tigers, and wolves. The project aimed to create a robust model that could accurately classify images into these categories. The dataset was preprocessed using Python libraries such as OpenCV, and additional image manipulation was done using the Keras ImageDataGenerator to improve model performance.
     </p>
     <p>
-      As part of this project, I also developed a small (non-working) application for users to what kind of animal they have spotted. The app is called "In the W(A.)I.ld". The application would then classify the animal and display the area of the image that the model paid the most attention to in order to classify it into its specific class. In addition, the app included a small game, where users were given an animal image and had to assign it to one of the six classes (Cheetah, Fox, Hyena, Lion, Tiger, Wolf). This interactive feature was designed to make the project more engaging while demonstrating the practical use of the CNN model. The interactive application I created, can be seen when clicking this link: .
+      As part of this project, I also developed a small (non-working) application for users to what kind of animal they have spotted. The app is called "In the W(A.)I.ld". The application would then classify the animal and display the area of the image that the model paid the most attention to in order to classify it into its specific class. In addition, the app included a small game, where users were given an animal image and had to assign it to one of the six classes (Cheetah, Fox, Hyena, Lion, Tiger, Wolf). This interactive feature was designed to make the project more engaging while demonstrating the practical use of the CNN model.
     </p>
 
     <h4>Interactive Application</h4>
@@ -145,9 +145,9 @@ author: Max Meiners
       Below is the interactive application I created. You can try the app here:
     </p>
     
-    <iframe title="AnimalClassifierApp" width="800" height="600" src="assets/app/preview.html" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe src="/assets/app/your_app.html" width="800" height="600" frameborder="0" allowfullscreen="true"></iframe>
 
-    
+
     <h4>Key Findings:</h4>
     <ul>
       <li>The CNN model achieved high accuracy in classifying the different animal species, with the best model achieving over 90% accuracy on the validation set.</li>
