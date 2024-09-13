@@ -139,7 +139,7 @@ author: Max Meiners
     </ul>
 
     <p>
-      You can view the Streamlit page we created for this project here: [Streamlit Application Link](https://bredauniversityadsai-2022-23d-1fc-deliverables1-homepage-0ylp0q.streamlit.app).
+      You can view the Streamlit page we created for this project [here](https://bredauniversityadsai-2022-23d-1fc-deliverables1-homepage-0ylp0q.streamlit.app).
     </p>
   </div>
 </div>
