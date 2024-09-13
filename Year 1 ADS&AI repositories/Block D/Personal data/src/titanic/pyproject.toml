@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "titanic"
+version = "0.1.0"
+description = ""
+authors = ["MaxMeiners214936 <214936@buas.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+streamlit
+streamlit_option_menu
+Pillow
+pandas
+seaborn
+matplotlib
+plotly
+numpy
+folium
+streamlit_folium
+branca
+shapely
+geopandas
+joblib
+scikit-learn
