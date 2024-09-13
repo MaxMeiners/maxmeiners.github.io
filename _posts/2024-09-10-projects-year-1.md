@@ -133,7 +133,8 @@ author: Max Meiners
   <input type="checkbox" id="project3" />
   <label for="project3">Project 3: Coming Soon</label>
   <div class="content">
-    <p>More projects will be added soon...</p>
+    <p>You can view the full code for this project in my Jupyter Notebook here: <a href="https://nbviewer.org/github/MaxMeiners/maxmeiners.github.io/blob/master/Year%201%20ADS%26AI%20repositories/Project%203/Deliverables/Creative-Brief-CNN.ipynb" target="_blank">nbviewer link</a>.
+</p>
   </div>
 </div>
 
