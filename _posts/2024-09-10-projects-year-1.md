@@ -145,7 +145,8 @@ author: Max Meiners
       Below is the interactive application I created. You can try the app here:
     </p>
     
-    <iframe src="assets/app/preview.html" width="800" height="600"></iframe>
+    <iframe title="AnimalClassifierApp" width="800" height="600" src="assets/app/preview.html" frameborder="0" allowFullScreen="true"></iframe>
+
     
     <h4>Key Findings:</h4>
     <ul>
