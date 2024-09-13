@@ -24,29 +24,30 @@ author: Max Meiners
     outline: none;
     font-size: 18px;
     transition: 0.4s;
+    margin-bottom: 5px;
   }
 
-  .active, .accordion:hover {
+  .accordion.active, .accordion:hover {
     background-color: #ccc;
   }
 
   .accordion:after {
-    content: '\002B';
+    content: '\002B'; /* Plus sign */
     color: #777;
     font-weight: bold;
     float: right;
-    margin-left: 5px;
   }
 
-  .active:after {
-    content: "\2212";
+  .accordion.active:after {
+    content: "\2212"; /* Minus sign */
   }
 
   .panel {
     padding: 0 18px;
-    background-color: white;
     display: none;
+    background-color: white;
     overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }
 
   .panel.show {
@@ -59,34 +60,17 @@ author: Max Meiners
 <button class="accordion">Project 1: SDG Indicators Data Analysis and Visualization</button>
 <div class="panel">
   <h3>Project 1: <strong>SDG Indicators Data Analysis and Visualization</strong></h3>
-  <div class="">
-  <p>For this project, I was given the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita (a measure of a country’s wealth) and undernourishment or malnutrition rates in African countries. The goal of my analysis was to see if a country’s wealth, as measured by GDP per capita, had a strong impact on reducing malnutrition across the continent.</p>
-    </div>
-  <p>The <strong>Sustainable Development Goals (SDGs)</strong>, especially SDG 2, aim to end hunger and malnutrition around the world. While progress has been made, undernourishment is still a big problem in many parts of Africa. Factors like poverty, conflict, and environmental challenges, such as drought, contribute to ongoing food insecurity. By studying the connection between a country’s economy and its ability to fight hunger, this project aimed to find trends that could lead to better solutions for reducing malnutrition.</p>
-
-  <p><strong>Research Question:</strong></p>
-  <ul>
-    <li><strong>What is the correlation between GDP per capita and undernourishment/malnutrition in the continent of Africa?</strong></li>
-  </ul>
+  <p>For this project, I was given the freedom to choose any of the United Nations' Sustainable Development Goals (SDGs) to explore. I decided to focus on <strong>SDG 2: Zero Hunger</strong>, specifically looking at the relationship between GDP per capita and undernourishment or malnutrition rates in African countries. The goal of my analysis was to see if a country’s wealth had a strong impact on reducing malnutrition across the continent.</p>
 
   <p><strong>Key Findings:</strong></p>
   <ul>
     <li>Nearly 10% of people worldwide are malnourished, with most of them living in Sub-Saharan Africa.</li>
-    <li>The region’s malnutrition problem is worsened by economic struggles, conflict, and natural disasters like drought.</li>
-    <li>By analyzing the data, I aimed to understand if wealthier countries are more successful in reducing hunger and how economic differences affect hunger rates.</li>
-  </ul>
-
-  <p><strong>Skills Gained:</strong></p>
-  <ul>
-    <li><strong>Data cleaning and preparation</strong> in Power BI to make sure the dataset was ready for analysis.</li>
-    <li><strong>Exploratory Data Analysis (EDA)</strong> to spot key trends and connections between GDP per capita and undernourishment rates.</li>
-    <li><strong>Data visualization</strong> using Power BI to create an interactive dashboard that clearly presents the insights and results of the analysis, allowing users to explore the link between GDP and hunger in different African countries.</li>
+    <li>Economic struggles, conflict, and natural disasters like drought worsen the malnutrition problem in this region.</li>
+    <li>The analysis explores whether wealthier countries are more successful in reducing hunger.</li>
   </ul>
 
   <h4>Dashboard</h4>
   <p>Below is the interactive Power BI dashboard that was the final deliverable for this project.</p>
-</div>
-<div class="panel">
   <iframe title="SDGIndicatorsDashboard_MaxMeiners" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNWQyNDgwNTItMThiMC00MWVlLTgwMzYtNDAzMmU2ODJlODc2IiwidCI6IjBhMzM1ODliLTAwMzYtNGZlOC1hODI5LTNlZDA5MjZhZjg4NiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
 </div>
 
