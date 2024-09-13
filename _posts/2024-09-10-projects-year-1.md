@@ -16,6 +16,7 @@ author: Max Meiners
   .dropdown-container {
     display: none;
     padding-left: 20px;
+    padding-top: 10px;
   }
   .dropdown-btn {
     background-color: #f1f1f1;
