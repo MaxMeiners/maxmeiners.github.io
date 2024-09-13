@@ -49,14 +49,14 @@ author: Max Meiners
   }
 
   .accordion .content {
-    max-height: 0;
+    height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease;
+    transition: height 0.4s ease;
     background-color: #f9f9f9;
   }
 
   .accordion input:checked + label + .content {
-    max-height: 1000px;
+    height: auto;
     padding: 18px;
     border-top: 1px solid #ddd;
   }
