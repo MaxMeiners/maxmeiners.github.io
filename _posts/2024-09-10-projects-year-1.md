@@ -145,7 +145,7 @@ author: Max Meiners
       Below is the interactive application I created. You can try the app here:
     </p>
     
-    <iframe src="assets/app/fullscreen.html" width="800" height="600"></iframe>
+    <iframe src="assets/app/preview.html" width="800" height="600"></iframe>
     
     <h4>Key Findings:</h4>
     <ul>
