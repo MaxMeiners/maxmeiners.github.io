@@ -100,8 +100,8 @@ author: Max Meiners
   <input type="checkbox" id="project2" />
   <label for="project2">Project 2: Machine Learning for TV Show Ratings Prediction for Banijay</label>
   <div class="content">
-    <p>
-      For this project, we were approached by **Banijay**, a leading content creation company, to analyze their television viewership data. Banijay provided us with detailed datasets related to their TV shows, including air dates, hosts, viewership ratings, and social media engagement data. My task was to develop a machine learning model that could predict TV show ratings based on this data, with the goal of helping Banijay enhance their data usage and ultimately increase their ratings.
+    <h3>Project 2: <strong>Machine Learning for TV Show Ratings Prediction for Banijay</strong></h3>
+    <p>For this project, we were approached by <strong>Banijay</strong>, a leading content creation company, to analyze their television viewership data. Banijay provided us with detailed datasets related to their TV shows, including air dates, hosts, viewership ratings, and social media engagement data. My task was to develop a machine learning model that could predict TV show ratings based on this data, with the goal of helping Banijay enhance their data usage and ultimately increase their ratings.
     </p>
     <p>
       After receiving the data from Banijay, I conducted an extensive Exploratory Data Analysis (EDA) using Python, which allowed me to identify key trends and relationships in the data. I then proceeded to develop machine learning models, including Linear Regression and Decision Tree models, to predict viewership ratings based on the features extracted from the data. The final outcome of my analysis was delivered back to Banijay, along with actionable insights to help them optimize their content and ratings.
@@ -123,7 +123,7 @@ author: Max Meiners
     </ul>
 
     <p>
-      The final model and insights were delivered back to **Banijay**, providing them with actionable recommendations on how to leverage social media data and optimize their host selection to improve TV show ratings.
+      The final model and insights were delivered back to <strong>Banijay</strong>, providing them with actionable recommendations on how to leverage social media data and optimize their host selection to improve TV show ratings.
     </p>
   </div>
 </div>
