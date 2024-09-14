@@ -142,11 +142,10 @@ author: Max Meiners
 
     <h4>Interactive Application</h4>
     <p>
-      You can try the interactive application by clicking the link below. The app will open in a new tab:
+      Below is the interactive application I created. You can try the app here:
     </p>
-
-    <a href="/assets/app/fullscreen.html" target="_blank">Open the "In the W(A.)I.ld" App</a>
-
+    
+    <iframe src="/assets/app/preview.html" width="800" height="600" frameborder="0" allowfullscreen="true"></iframe>
 
 
     <h4>Key Findings:</h4>
