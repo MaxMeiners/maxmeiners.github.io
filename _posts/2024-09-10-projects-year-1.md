@@ -145,7 +145,8 @@ author: Max Meiners
       Below is the interactive application I created. You can try the app here:
     </p>
     
-    {% include preview.html %}
+    <iframe src="https://raw.githubusercontent.com/MaxMeiners/maxmeiners.github.io/master/_includes/preview.html" width="800" height="600" frameborder="0" allowfullscreen="true"></iframe>
+
 
 
     <h4>Key Findings:</h4>
