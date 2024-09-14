@@ -145,7 +145,7 @@ author: Max Meiners
       Below is the interactive application I created. You can try the app here:
     </p>
     
-    <iframe src="/assets/preview.html" width="800" height="600" frameborder="0" allowfullscreen="true"></iframe>
+    {% include preview.html %}
 
 
     <h4>Key Findings:</h4>
