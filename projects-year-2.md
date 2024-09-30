@@ -95,7 +95,7 @@ author: Max Meiners
 
     <h4>PowerPoint Presentation</h4>
     <p>Below is the interactive PowerPoint presentation that was the final deliverable for this project:</p>
-    <iframe src="https://edubuas-my.sharepoint.com/personal/214936_buas_nl/_layouts/15/Doc.aspx?sourcedoc={b1a1edf0-6f4c-4971-8095-b62e32dc9961}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    <iframe src="https://edubuas-my.sharepoint.com/personal/214936_buas_nl/_layouts/15/Doc.aspx?sourcedoc={b1a1edf0-6f4c-4971-8095-b62e32dc9961}&amp;action=view&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
   </div>
 </div>
 
