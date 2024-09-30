@@ -95,7 +95,7 @@ author: Max Meiners
 
     <h4>PowerPoint Presentation</h4>
     <p>Below is the interactive PowerPoint presentation that was the final deliverable for this project:</p>
-    <iframe src="/assets/cv/AI in Media poster.pdf" width="476px" height="288px" frameborder="0">
+    <iframe src="/assets/powerpoint/AI_in_Media_poster.pdf" width="476px" height="288px" frameborder="0">
     </iframe>
   </div>
 </div>
