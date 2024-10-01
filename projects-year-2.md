@@ -95,7 +95,7 @@ author: Max Meiners
 
     <h4>PowerPoint Presentation</h4>
     <p>Below is the link to the interactive PowerPoint presentation that was the final deliverable for this project:</p>
-    <a href="[Interactive PowerPoint Presentation](https://edubuas-my.sharepoint.com/:p:/g/personal/214936_buas_nl/EfDtobFMb3FJgJW2LjLcmWEBUXR3-ITpDCHQWaUocMHQxA?e=4zoQwj)" target="_blank">View the PowerPoint Presentation</a>
+    <a href="https://edubuas-my.sharepoint.com/:p:/g/personal/214936_buas_nl/EfDtobFMb3FJgJW2LjLcmWEBUXR3-ITpDCHQWaUocMHQxA?e=4zoQwj" target="_blank">View the Interactive PowerPoint Presentation</a>
   </div>
 </div>
 
