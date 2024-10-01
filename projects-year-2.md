@@ -101,12 +101,12 @@ author: Max Meiners
 
 
 <div class="accordion">
-  <input type="checkbox" id="projectNPEC" />
-  <label for="projectNPEC">Project: AI-Driven Plant Analysis for NPEC</label>
+  <input type="checkbox" id="project2" />
+  <label for="project2">Project 2: AI-Driven Plant Analysis for NPEC</label>
   <div class="content">
-    <h3>Project: <strong>AI-Driven Plant Analysis for the Netherlands Plant Eco-phenotyping Center (NPEC)</strong></h3>
+    <h3>Project 2: <strong>AI-Driven Plant Analysis for the Netherlands Plant Eco-phenotyping Center (NPEC)</strong></h3>
     <p>
-      From November 2023 to February 2024, I worked on a project in collaboration with the <strong>Netherlands Plant Eco-phenotyping Center (NPEC)</strong>, through my association with Breda University of Applied Sciences. The project's primary objective was to revolutionize plant phenotyping by integrating computer vision and robotics to enhance plant root analysis and improve automation in precision inoculation.
+      For this project, I worked in collaboration with the <strong>Netherlands Plant Eco-phenotyping Center (NPEC)</strong>, through my association with Breda University of Applied Sciences. The project's primary objective was to revolutionize plant phenotyping by integrating computer vision and robotics to enhance plant root analysis and improve automation in precision inoculation.
     </p>
     
     <p>
@@ -135,7 +135,7 @@ author: Max Meiners
 
     <h4>Skills Gained:</h4>
     <ul>
-      <li><strong>Robotics</strong>: Developed and simulated a liquid handling robot with a PID controller for precise inoculation tasks.</li>
+      <li><strong>Robotics</strong>: Developed and simulated a robot with a PID controller for precise inoculation tasks.</li>
       <li><strong>Computer Vision</strong>: Applied segmentation techniques to isolate plant structures, enabling accurate plant root phenotyping.</li>
       <li><strong>Reinforcement Learning</strong>: Crafted reward functions and optimized RL models for autonomous robot navigation and liquid delivery.</li>
       <li><strong>Machine Learning</strong>: Built predictive models for plant segmentation and collaborated on enhancing robotics through ML integration.</li>
@@ -151,45 +151,39 @@ author: Max Meiners
 
 <div class="accordion">
   <input type="checkbox" id="project3" />
-  <label for="project3">Project 3: CNN-Based Animal Species Classification</label>
+  <label for="project3">Project 3: Advanced Emotion Classification System for Banijay</label>
   <div class="content">
-    <h3>Project 3: <strong>CNN-Based Animal Species Classification</strong></h3>
-    <p>This project involved developing a Convolutional Neural Network (CNN) model to classify images of different animal species using TensorFlow and Keras. I specifically chose to build an image classifier capable of distinguishing between cheetahs, foxes, hyenas, lions, tigers, and wolves. The project aimed to create a robust model that could accurately classify images into these categories. The dataset was preprocessed using Python libraries such as OpenCV, and additional image manipulation was done using the Keras ImageDataGenerator to improve model performance.
-    </p>
-    <p>
-      As part of this project, I also developed a small (non-working) application for users to what kind of animal they have spotted. The app is called "In the W(A.)I.ld". The application would then classify the animal and display the area of the image that the model paid the most attention to in order to classify it into its specific class. In addition, the app included a small game, where users were given an animal image and had to assign it to one of the six classes (Cheetah, Fox, Hyena, Lion, Tiger, Wolf). This interactive feature was designed to make the project more engaging while demonstrating the practical use of the CNN model.
-    </p>
-
-    <h4>Interactive Application</h4>
-    <p>
-      Below is the interactive application I created. You can try the app here:
-    </p>
+    <h3>Project 3: <strong>Advanced Emotion Classification System for Banijay</strong></h3>
+    <p>For this group project, my team and I collaborated with <strong>Banijay</strong>, in association with Breda University of Applied Sciences, to develop an emotion classification system utilizing natural language processing (NLP) and machine learning models. The objective was to analyze video content, detecting and classifying emotions to enhance the content's emotional impact and insights.</p>
     
-    <iframe src="/assets/app/preview.html" width="800" height="600" frameborder="0" allowfullscreen="true"></iframe>
+    <p>The data preprocessing involved cleaning text data using regular expressions, and normalizing it through tokenization and stemming techniques. Word embeddings were then used to represent words as vectors, enabling the integration of these vectors into machine learning models. Additional feature extraction methods like TF-IDF and Part-of-Speech (POS) tagging were applied. A custom word embedding model, trained on our project-specific corpus, was incorporated to enhance emotion classification accuracy.</p>
 
+    <p>We experimented with multiple models for emotion classification. Initial models were developed using Naïve Bayes and Logistic Regression algorithms. Further sophistication was added with sequence models such as Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks, each contributing to an improved understanding of emotional cues in text.</p>
+
+    <p>A robust pipeline was developed to break down video content into fragments, extract text from these fragments, and predict emotions for each segment. To ensure optimal performance, we tested transformer models using Hugging Face, selecting RoBERTA as the core model. RoBERTa was fine-tuned on the dataset and achieved high accuracy in emotion classification.</p>
+
+    <p>Comprehensive model evaluation was performed using metrics such as accuracy, precision, recall, and F1-score. Through error analysis, we identified areas for improvement, balancing performance metrics to select the most effective model. The process and results were documented in a detailed technical report, showcasing the methodologies and findings.</p>
 
     <h4>Key Findings:</h4>
     <ul>
-      <li>The CNN model achieved high accuracy in classifying the different animal species, with the best model achieving over 90% accuracy on the validation set.</li>
-      <li>Grad-CAM provided useful visual explanations of which parts of the image the model was focusing on to make predictions, helping to interpret the results.</li>
-      <li>Data augmentation significantly improved model performance by preventing overfitting, especially in the case of smaller datasets.</li>
+      <li>RoBERTa outperformed other models in emotion classification, achieving significant accuracy improvements after fine-tuning on the project-specific dataset.</li>
+      <li>Data preprocessing and feature extraction were critical in improving model performance, with POS tagging and word embeddings contributing to enhanced emotion detection.</li>
+      <li>The pipeline's automated process for splitting video and extracting text enabled efficient emotion classification across various video content.</li>
+      <li>Combining traditional algorithms with advanced transformer models provided a deeper understanding and classification of emotions in media content.</li>
     </ul>
 
     <h4>Skills Gained:</h4>
     <ul>
-      <li><strong>Deep learning and CNN architecture</strong> using TensorFlow and Keras to build and train animal species classification models.</li>
-      <li><strong>Image processing</strong> using OpenCV and Skimage for data preprocessing and augmentation.</li>
-      <li><strong>Model interpretability</strong> through Grad-CAM and LIME to visualize and explain model decisions.</li>
-      <li><strong>Application development</strong> to create an interactive image classification tool and a game for user engagement.</li>
-      <li><strong>GPU configuration and optimization</strong> for training deep learning models using TensorFlow.</li>
+      <li><strong>Transformer Models</strong> – Implemented and fine-tuned transformer models, specifically RoBERTa, for NLP tasks.</li>
+      <li><strong>Performance Metrics Analysis</strong> – Evaluated models using accuracy, precision, recall, and F1-score.</li>
+      <li><strong>Feature Engineering</strong> – Applied techniques such as tokenization, TF-IDF, and POS tagging for improved model performance.</li>
+      <li><strong>Natural Language Processing (NLP)</strong> – Developed emotion classification models using advanced NLP techniques.</li>
+      <li><strong>Model Evaluation</strong> – Conducted comprehensive model performance assessments and error analyses.</li>
     </ul>
 
-    <p>
-      You can view the full code for this project in my Jupyter Notebook here: <a href="https://nbviewer.org/github/MaxMeiners/maxmeiners.github.io/blob/master/Year%201%20ADS%26AI%20repositories/Project%203/Deliverables/Creative-Brief-CNN.ipynb" target="_blank">NBViewer link</a>.
-    </p>
+    <p>The project provided Banijay with a robust tool for analyzing emotional content in their video assets, offering actionable insights to enhance viewer engagement through AI-driven emotion classification.</p>
   </div>
 </div>
-
 
 
 <div class="accordion">
