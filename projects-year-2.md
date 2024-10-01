@@ -66,9 +66,9 @@ author: Max Meiners
 
 <div class="accordion">
   <input type="checkbox" id="project2" />
-  <label for="project2">Project 2: AI in Facility Management Studies at BUAS</label>
+  <label for="project2">Project 1: AI in Media Studies at BUAS</label>
   <div class="content">
-    <h3>Project 2: <strong>AI in Facility Management Studies at BUAS</strong></h3>
+    <h3>Project 1: <strong>AI in Media Studies at BUAS</strong></h3>
     <p>As part of a five-person team at Breda University of Applied Sciences (BUAS), we explored the impact of Artificial Intelligence (AI) on students, staff, and the organization. Our mixed-method study combined surveys and interviews to investigate attitudes towards AI within media studies. The project concluded with a research paper, policy recommendations, and an interactive PowerPoint presentation presented at a conference, providing actionable insights and strategic direction.</p>
 
     <h4>Data Collection & Analysis:</h4>
