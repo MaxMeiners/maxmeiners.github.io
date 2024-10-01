@@ -95,7 +95,7 @@ author: Max Meiners
 
     <h4>PowerPoint Presentation</h4>
     <p>Below is the interactive PowerPoint presentation that was the final deliverable for this project:</p>
-    <iframe src="/assets/powerpoint/AI_in_Media_poster.pptx" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    <iframe src="https://edubuas-my.sharepoint.com/:p:/g/personal/214936_buas_nl/EfDtobFMb3FJgJW2LjLcmWEBUXR3-ITpDCHQWaUocMHQxA?e=QrDKeF" width="476px" height="288px" frameborder="0"></iframe>
   </div>
 </div>
 
