@@ -65,8 +65,8 @@ author: Max Meiners
 <h2>Year 2 Projects</h2>
 
 <div class="accordion">
-  <input type="checkbox" id="project2" />
-  <label for="project2">Project 1: AI in Media Studies at BUAS</label>
+  <input type="checkbox" id="project1" />
+  <label for="project1">Project 1: AI in Media Studies at BUAS</label>
   <div class="content">
     <h3>Project 1: <strong>AI in Media Studies at BUAS</strong></h3>
     <p>As part of a five-person team at Breda University of Applied Sciences (BUAS), we explored the impact of Artificial Intelligence (AI) on students, staff, and the organization. Our mixed-method study combined surveys and interviews to investigate attitudes towards AI within media studies. The project concluded with a research paper, policy recommendations, and an interactive PowerPoint presentation presented at a conference, providing actionable insights and strategic direction.</p>
@@ -101,36 +101,52 @@ author: Max Meiners
 
 
 <div class="accordion">
-  <input type="checkbox" id="project2" />
-  <label for="project2">Project 2: Machine Learning for TV Show Ratings Prediction for Banijay</label>
+  <input type="checkbox" id="projectNPEC" />
+  <label for="projectNPEC">Project: AI-Driven Plant Analysis for NPEC</label>
   <div class="content">
-    <h3>Project 2: <strong>Machine Learning for TV Show Ratings Prediction for Banijay</strong></h3>
-    <p>For this project, we were approached by <strong>Banijay</strong>, a leading content creation company, to analyze their television viewership data. Banijay provided us with detailed datasets related to their TV shows, including air dates, hosts, viewership ratings, and social media engagement data. My task was to develop a machine learning model that could predict TV show ratings based on this data, with the goal of helping Banijay enhance their data usage and ultimately increase their ratings.
-    </p>
+    <h3>Project: <strong>AI-Driven Plant Analysis for the Netherlands Plant Eco-phenotyping Center (NPEC)</strong></h3>
     <p>
-      After receiving the data from Banijay, I conducted an extensive Exploratory Data Analysis (EDA) using Python, which allowed me to identify key trends and relationships in the data. I then proceeded to develop machine learning models, including Linear Regression and Decision Tree models, to predict viewership ratings based on the features extracted from the data. The final outcome of my analysis was delivered back to Banijay, along with actionable insights to help them optimize their content and ratings.
+      From November 2023 to February 2024, I worked on a project in collaboration with the <strong>Netherlands Plant Eco-phenotyping Center (NPEC)</strong>, through my association with Breda University of Applied Sciences. The project's primary objective was to revolutionize plant phenotyping by integrating computer vision and robotics to enhance plant root analysis and improve automation in precision inoculation.
+    </p>
+    
+    <p>
+      To address plant phenotyping challenges, computer vision techniques were employed to isolate Petri dishes from background noise and perform semantic segmentation of plant components like seeds, shoots, and roots. With a refined and preprocessed dataset, I developed a machine learning model capable of accurately predicting masks for different plant structures. This allowed for instance segmentation, which identified individual plants in the images and facilitated detailed measurements, such as root length and the precise localization of root tips—a critical step in assessing plant growth and traits.
+    </p>
+
+    <p>
+      In parallel with the computer vision work, the robotics aspect of the project focused on automating the delivery of inoculants to the identified plant root tips. I simulated and developed a precision liquid handling robot that was programmed using a PID controller for accurate liquid dispensing. The robot was integrated with the computer vision system, enabling it to locate and deliver the liquid to targeted areas on the Petri dish. This demonstrated how vision-based analysis could be seamlessly combined with robotic automation, allowing for precise interventions in plant phenotyping experiments.
+    </p>
+
+    <p>
+      Additionally, I incorporated reinforcement learning to enhance the robot’s navigation and precision. By designing appropriate reward functions and conducting hyperparameter tuning, I ensured that the robot could autonomously navigate to the correct root tips for liquid delivery. The integration of reinforcement learning further improved the system's efficiency, as the robot learned to optimize its path and actions based on real-time feedback.
     </p>
 
     <h4>Key Findings:</h4>
     <ul>
-      <li>Social media engagement, particularly metrics like retweets and likes on Twitter, had a significant correlation with the ratings of the show.</li>
-      <li>The analysis revealed that certain hosts were consistently more popular, which positively influenced the show's ratings.</li>
-      <li>Linear Regression performed better than the Decision Tree model in predicting the ratings, with an R-squared value of 0.93 compared to 0.89 for the Decision Tree model.</li>
-    </ul>
-
-    <h4>Skills Gained:</h4>
-    <ul>
-      <li><strong>Data cleaning and preparation</strong> by merging multiple datasets and handling missing values to ensure the data was ready for analysis.</li>
-      <li><strong>Exploratory Data Analysis (EDA)</strong> using Python to identify key trends in viewership and social media metrics.</li>
-      <li><strong>Machine Learning model development</strong> by implementing Linear Regression and Decision Tree models to predict TV ratings.</li>
-      <li><strong>Ethical considerations</strong> in data handling, ensuring all data used complied with GDPR standards, and reflecting on the broader implications of using social media data for predictive analysis.</li>
+      <li>The computer vision model was able to achieve high accuracy in isolating plant structures, particularly roots, enabling more efficient plant trait analysis.</li>
+      <li>The liquid handling robot demonstrated precise inoculation capabilities when integrated with vision-based localization, enhancing automation in plant phenotyping.</li>
+      <li>Reinforcement learning significantly improved the robot’s precision in liquid delivery, ensuring accurate targeting of plant root tips.</li>
+      <li>The combination of machine learning, computer vision, and robotics proved to be an effective approach for automated plant phenotyping.</li>
     </ul>
 
     <p>
-      The final model and insights were delivered back to <strong>Banijay</strong>, providing them with actionable recommendations on how to leverage social media data and optimize their host selection to improve TV show ratings.
+      The project culminated in a comprehensive technical report, which documented the methodologies used for dataset acquisition and preprocessing, and detailed the computer vision and robotics pipelines. The report included a flowchart that depicted the overall workflow and performance metrics that evaluated the accuracy of root segmentation, robot precision, and the effectiveness of reinforcement learning in task execution.
+    </p>
+
+    <h4>Skills Gained:</h4>
+    <ul>
+      <li><strong>Robotics</strong>: Developed and simulated a liquid handling robot with a PID controller for precise inoculation tasks.</li>
+      <li><strong>Computer Vision</strong>: Applied segmentation techniques to isolate plant structures, enabling accurate plant root phenotyping.</li>
+      <li><strong>Reinforcement Learning</strong>: Crafted reward functions and optimized RL models for autonomous robot navigation and liquid delivery.</li>
+      <li><strong>Machine Learning</strong>: Built predictive models for plant segmentation and collaborated on enhancing robotics through ML integration.</li>
+    </ul>
+
+    <p>
+      The outcomes of this project demonstrated the successful synergy between computer vision and robotics, advancing automated plant phenotyping. The technical report and findings offered a valuable contribution to NPEC's goal of improving plant analysis through AI technologies.
     </p>
   </div>
 </div>
+
 
 
 <div class="accordion">
