@@ -208,16 +208,14 @@ author: Max Meiners
       <li>The Streamlit application enabled seamless interaction with the model, enhancing stakeholders' ability to visualize emotional trends and validate model accuracy.</li>
     </ul>
 
-    <h4>Skills Gained:</h4>
-    <ul>
-      <li><strong>Machine Learning</strong> for emotion recognition, utilizing Azure ML for model training and cloud deployment.</li>
-      <li><strong>Data Processing</strong> through video analysis and feature extraction to support accurate emotion detection.</li>
-      <li><strong>Application Development</strong> using Streamlit to create a user-friendly interface for model training and visualization.</li>
-      <li><strong>MLOps & Containerization</strong>: Employed Docker to ensure consistent and reproducible environments for development and deployment.</li>
-    </ul>
-
-    <p>
-      You can view the Streamlit page we created for this project here: <a href="https://bredauniversityadsai-2023-24d-fai2-adsai-gr-streamlite3k-df4jeq.streamlit.app" target="_blank">Streamlit Application Link</a>.
-    </p>
+    <h4>Screenshots:</h4>
+    <div>
+      <img src="/assets/img/emotion_detection_homepage.png" alt="Emotion Detection Platform Home" style="width:100%; max-width:600px;">
+      <p><em>Figure 1: The homepage of the Emotion Detection Platform, explaining what the goal of the platform is.</em></p>
+    </div>
+    <div>
+      <img src="/assets/img/model_training_page.png" alt="Model Training Interface" style="width:100%; max-width:600px;">
+      <p><em>Figure 2: The model training interface, allowing users to input data and select hyperparameters for model training.</em></p>
+    </div>
   </div>
 </div>
