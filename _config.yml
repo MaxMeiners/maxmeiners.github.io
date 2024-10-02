@@ -25,8 +25,10 @@ navbar-links:
     - Machine Learning: "machine_learning"
     - Computer Vision: "computer_vision"
     - Robotics:
-      - NPEC: "2024-09-12-robotics-npec"
-    - Data Visualization: "data_visualization"
+      - NPEC: "2024-09-13-robotics-npec"
+    - Data Visualization: 
+      - _: "data_visualization"
+      - Animal Classification: "2024-09-15-animal-classification.md"
     - Deep Learning: "deep_learning"
     - NLP: "natural_language_processing"
     - ADS&AI year 1: "projects-year-1"

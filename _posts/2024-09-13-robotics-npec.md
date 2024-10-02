@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Robotics Projects
-subtitle: A collection of my robotics projects
-cover-img: /assets/img/ai_cover_photo.jpg
-thumbnail-img: /assets/img/robotics_background.jpg
-share-img: /assets/img/ai_cover_photo.jpg
+title: AI-Driven Plant Analysis for NPEC
+subtitle: Enhancing plant phenotyping through computer vision and robotics
+cover-img: /assets/img/robotics_background.jpg
+thumbnail-img: /assets/img/robotics_cover.png
+share-img: /assets/img/robotics_background.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
 tags: [robotics, computer vision, projects]
@@ -12,10 +12,7 @@ comments: true
 author: Max Meiners
 ---
 
-<h2>Robotics Projects</h2>
-
 <div>
-  <h3><strong>AI-Driven Plant Analysis for the Netherlands Plant Eco-phenotyping Center (NPEC)</strong></h3>
   <p>
     For this project, I worked in collaboration with the <strong>Netherlands Plant Eco-phenotyping Center (NPEC)</strong>, through my association with Breda University of Applied Sciences. The project's primary objective was to revolutionize plant phenotyping by integrating computer vision and robotics to enhance plant root analysis and improve automation in precision inoculation.
   </p>
