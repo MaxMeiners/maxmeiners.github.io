@@ -21,9 +21,10 @@ author: Max Meiners
     display: none;
   }
 
+  /* Accordion label styling */
   .accordion label {
-    background-color: #eee;
-    color: #444;
+    background-color: #2D3748; /* Match navbar color */
+    color: #F7FAFC; /* Match navbar text color */
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -35,10 +36,12 @@ author: Max Meiners
     display: block;
   }
 
+  /* Hover effect for label */
   .accordion label:hover {
-    background-color: #ccc;
+    background-color: #A0AEC0; /* Match navbar border color for hover */
   }
 
+  /* Symbol for dropdown state */
   .accordion label:after {
     content: '+';
     float: right;
@@ -48,17 +51,29 @@ author: Max Meiners
     content: '-';
   }
 
+  /* Content section styling */
   .accordion .content {
     height: 0;
     overflow: hidden;
     transition: height 0.4s ease;
-    background-color: #f9f9f9;
+    background-color: #F0F4F8; /* Match page background color */
   }
 
+  /* When accordion is open */
   .accordion input:checked + label + .content {
     height: auto;
     padding: 18px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #A0AEC0; /* Match navbar border color */
+  }
+
+  /* Links within content */
+  .accordion .content a {
+    color: #FF6B6B; /* Match link color */
+  }
+
+  /* Hover effect for links */
+  .accordion .content a:hover {
+    color: #FF8E72; /* Match hover color */
   }
 </style>
 
