@@ -208,6 +208,14 @@ author: Max Meiners
       <li>The Streamlit application enabled seamless interaction with the model, enhancing stakeholders' ability to visualize emotional trends and validate model accuracy.</li>
     </ul>
 
+    <h4>Skills Gained:</h4>
+    <ul>
+      <li><strong>Machine Learning</strong> for emotion recognition, utilizing Azure ML for model training and cloud deployment.</li>
+      <li><strong>Data Processing</strong> through video analysis and feature extraction to support accurate emotion detection.</li>
+      <li><strong>Application Development</strong> using Streamlit to create a user-friendly interface for model training and visualization.</li>
+      <li><strong>MLOps & Containerization</strong>: Employed Docker to ensure consistent and reproducible environments for development and deployment.</li>
+    </ul>
+
     <h4>Screenshots:</h4>
     <div>
       <img src="/assets/img/emotion_detection_homepage.png" alt="Emotion Detection Platform Home" style="width:100%; max-width:600px;">
