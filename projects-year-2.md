@@ -148,7 +148,6 @@ author: Max Meiners
 </div>
 
 
-
 <div class="accordion">
   <input type="checkbox" id="project3" />
   <label for="project3">Project 3: Advanced Emotion Classification System for Banijay</label>

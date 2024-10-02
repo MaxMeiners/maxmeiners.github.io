@@ -22,6 +22,9 @@ author: Max Meiners
 navbar-links:
   About Me: "2024-09-12-about-me"
   Projects:
+    - Machine Learning: "machine_learning"
+    - Computer Vision: "computer_vision"
+    - Robotics: "robotics"
     - ADS&AI year 1: "projects-year-1"
     - ADS&AI year 2: "projects-year-2"
 

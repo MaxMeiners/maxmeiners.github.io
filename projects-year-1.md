@@ -7,7 +7,7 @@ cover-img: /assets/img/ai_cover_photo.jpg
 share-img: /assets/img/ai_cover_photo.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
-tags: [introduction, cv]
+# tags: [introduction, cv]
 comments: true
 author: Max Meiners
 ---
