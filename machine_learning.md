@@ -113,48 +113,6 @@ author: Max Meiners
 
 
 <div class="accordion">
-  <input type="checkbox" id="image_recognition" />
-  <label for="image_recognition">CNN-Based Animal Species Classification</label>
-  <div class="content">
-    <h3><strong>CNN-Based Animal Species Classification</strong></h3>
-    <p>This project involved developing a Convolutional Neural Network (CNN) model to classify images of different animal species using TensorFlow and Keras. I specifically chose to build an image classifier capable of distinguishing between cheetahs, foxes, hyenas, lions, tigers, and wolves. The project aimed to create a robust model that could accurately classify images into these categories. The dataset was preprocessed using Python libraries such as OpenCV, and additional image manipulation was done using the Keras ImageDataGenerator to improve model performance.
-    </p>
-    <p>
-      As part of this project, I also developed a small (non-working) application for users to what kind of animal they have spotted. The app is called "In the W(A.)I.ld". The application would then classify the animal and display the area of the image that the model paid the most attention to in order to classify it into its specific class. In addition, the app included a small game, where users were given an animal image and had to assign it to one of the six classes (Cheetah, Fox, Hyena, Lion, Tiger, Wolf). This interactive feature was designed to make the project more engaging while demonstrating the practical use of the CNN model.
-    </p>
-
-    <h4>Interactive Application</h4>
-    <p>
-      Below is the interactive application I created. You can try the app here:
-    </p>
-    
-    <iframe src="/assets/app/preview.html" width="800" height="600" frameborder="0" allowfullscreen="true"></iframe>
-
-
-    <h4>Key Findings:</h4>
-    <ul>
-      <li>The CNN model achieved high accuracy in classifying the different animal species, with the best model achieving over 90% accuracy on the validation set.</li>
-      <li>Grad-CAM provided useful visual explanations of which parts of the image the model was focusing on to make predictions, helping to interpret the results.</li>
-      <li>Data augmentation significantly improved model performance by preventing overfitting, especially in the case of smaller datasets.</li>
-    </ul>
-
-    <h4>Skills Gained:</h4>
-    <ul>
-      <li><strong>Deep learning and CNN architecture</strong> using TensorFlow and Keras to build and train animal species classification models.</li>
-      <li><strong>Image processing</strong> using OpenCV and Skimage for data preprocessing and augmentation.</li>
-      <li><strong>Model interpretability</strong> through Grad-CAM and LIME to visualize and explain model decisions.</li>
-      <li><strong>Application development</strong> to create an interactive image classification tool and a game for user engagement.</li>
-      <li><strong>GPU configuration and optimization</strong> for training deep learning models using TensorFlow.</li>
-    </ul>
-
-    <p>
-      You can view the full code for this project in my Jupyter Notebook here: <a href="https://nbviewer.org/github/MaxMeiners/maxmeiners.github.io/blob/master/Year%201%20ADS%26AI%20repositories/Project%203/Deliverables/Creative-Brief-CNN.ipynb" target="_blank">NBViewer link</a>.
-    </p>
-  </div>
-</div>
-
-
-<div class="accordion">
   <input type="checkbox" id="municipality" />
   <label for="municipality">CRISP-DM Cycle and Streamlit Application for the Municipality of Breda</label>
   <div class="content">
@@ -259,43 +217,5 @@ author: Max Meiners
     <p>
       You can view the full code for the RoBERTa model in my Jupyter Notebook here: <a href="https://nbviewer.org/github/MaxMeiners/maxmeiners.github.io/blob/master/Year%202%20ADS%26AI%20repositories/Project%203/RoBERTa%20model/roberta_model_best_performing.ipynb" target="_blank">NBViewer link</a>.
     </p>
-  </div>
-</div>
-
-<div class="accordion">
-  <input type="checkbox" id="expeditie_robinson" />
-  <label for="expeditie_robinson">Emotion Detection AI for "Expeditie Robinson"</label>
-  <div class="content">
-    <h3><strong>Emotion Detection AI for "Expeditie Robinson"</strong></h3>
-    <p>For this group project, my team and I continued the work from our previous project, building upon models and methodologies we had already developed. One example is the use of the RoBERTa model that I created in the previous block, which served as a foundation for developing a new AI-driven emotion detection model based on the popular reality TV series "Expeditie Robinson." Our goal was to create a machine learning solution capable of analyzing and detecting emotions in video footage from the show. Leveraging tools like Microsoft Azure Machine Learning and Docker, we designed and built an end-to-end MLOps pipeline that processed, trained, and deployed our models for real-time emotion inference.</p>
-    
-    <p>
-      The project emphasized <strong>cloud-based deployment and visualization</strong> of the model's predictions. We developed an interactive web-based platform using Streamlit, called the "Emotion Detection Platform." This platform enables users to train models by providing text input data and selecting hyperparameters. Once trained, the model can analyze both audio and video files, delivering predictions at the sentence level. The platform aims to provide valuable insights into viewer engagement and preferences for TV series, allowing stakeholders to make informed data-driven decisions.
-    </p>
-
-    <h4>Key Findings:</h4>
-    <ul>
-      <li>Video data from "Expeditie Robinson" provided a rich source of emotional expressions, which the model successfully identified and classified.</li>
-      <li>Our analysis highlighted patterns in contestant emotions, offering insights into mood shifts and emotional dynamics throughout the series.</li>
-      <li>The Streamlit application enabled seamless interaction with the model, enhancing stakeholders' ability to visualize emotional trends and validate model accuracy.</li>
-    </ul>
-
-    <h4>Skills Gained:</h4>
-    <ul>
-      <li><strong>Machine Learning</strong> for emotion recognition, utilizing Azure ML for model training and cloud deployment.</li>
-      <li><strong>Data Processing</strong> through video analysis and feature extraction to support accurate emotion detection.</li>
-      <li><strong>Application Development</strong> using Streamlit to create a user-friendly interface for model training and visualization.</li>
-      <li><strong>MLOps & Containerization</strong>: Employed Docker to ensure consistent and reproducible environments for development and deployment.</li>
-    </ul>
-
-    <h4>Screenshots:</h4>
-    <div>
-      <img src="/assets/img/emotion_detection_homepage.png" alt="Emotion Detection Platform Home" style="width:100%; max-width:600px;">
-      <p><em>Figure 1: The homepage of the Emotion Detection Platform, explaining what the goal of the platform is.</em></p>
-    </div>
-    <div>
-      <img src="/assets/img/model_training_page.png" alt="Model Training Interface" style="width:100%; max-width:600px;">
-      <p><em>Figure 2: The model training interface, allowing users to input data and select hyperparameters for model training.</em></p>
-    </div>
   </div>
 </div>
