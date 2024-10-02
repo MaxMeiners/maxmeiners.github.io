@@ -24,7 +24,7 @@ Want to see some of the projects I’ve worked on? Check them out on my [GitHub]
 
 You can view my full CV below:
 
-<iframe src="/assets/cv/Max_Meiners_CV.pdf" width="100%" height="600px">
+<iframe src="/assets/cv/Max-Meiners-02-10-2024.pdf" width="100%" height="600px">
   Your browser does not support iframes. You can download the CV using the button below.
 </iframe>
 
