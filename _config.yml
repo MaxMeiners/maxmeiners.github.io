@@ -25,6 +25,8 @@ navbar-links:
     - Machine Learning: "machine_learning"
     - Computer Vision: "computer_vision"
     - Robotics: "robotics"
+    - Data Visualization: "data_visualization"
+    - NLP: "natural_language_processing"
     - ADS&AI year 1: "projects-year-1"
     - ADS&AI year 2: "projects-year-2"
 
