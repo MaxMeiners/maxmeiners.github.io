@@ -24,7 +24,8 @@ navbar-links:
   Projects:
     - Machine Learning: "machine_learning"
     - Computer Vision: "computer_vision"
-    - Robotics: "robotics"
+    - Robotics:
+      - NPEC: "2024-09-12-robotics-npec"
     - Data Visualization: "data_visualization"
     - Deep Learning: "deep_learning"
     - NLP: "natural_language_processing"
