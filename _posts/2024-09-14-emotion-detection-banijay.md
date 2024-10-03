@@ -3,7 +3,7 @@ layout: page
 title: Emotion Detection AI for "Expeditie Robinson"
 subtitle: Analyzing and detecting emotions in a TV series
 cover-img: /assets/img/deep_learning_cover.jpg
-thumbnail-img: /assets/img/wildlife_recognition.png
+thumbnail-img: /assets/img/robinson_thumbnail.jpg
 share-img: /assets/img/deep_learning_cover.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]

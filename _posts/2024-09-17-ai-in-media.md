@@ -2,9 +2,9 @@
 layout: page
 title: AI in Media Studies at BUAS
 subtitle: Exploring the impact of AI in media studies through mixed-method research
-cover-img: /assets/img/media_studies_cover.jpg
-thumbnail-img: /assets/img/media_studies_thumbnail.png
-share-img: /assets/img/media_studies_cover.jpg
+cover-img: /assets/img/deep_learning_cover.jpg
+thumbnail-img: /assets/img/buas_thumbnail.png
+share-img: /assets/img/deep_learning_cover.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
 tags: [media studies, BUas, research, data visualization]
