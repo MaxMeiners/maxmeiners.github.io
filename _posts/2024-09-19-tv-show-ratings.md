@@ -3,7 +3,7 @@ layout: page
 title: Machine Learning for TV Show Ratings Prediction for Banijay
 subtitle: Developing predictive models for television viewership ratings
 cover-img: /assets/img/ai_cover_photo.jpg
-thumbnail-img: /assets/img/banijay_thumbnail.jpg
+thumbnail-img: /assets/img/banijay_thumbnail.png
 share-img: /assets/img/ai_cover_photo.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
