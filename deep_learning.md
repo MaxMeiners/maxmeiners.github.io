@@ -2,9 +2,9 @@
 layout: page
 title: Deep Learning Projects
 subtitle: A collection of my deep learning projects
-cover-img: /assets/img/ai_cover_photo.jpg
+cover-img: /assets/img/deep_learning.jpg
 # thumbnail-img: /assets/img/Cropped_Image.png
-share-img: /assets/img/ai_cover_photo.jpg
+share-img: /assets/img/deep_learning.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
 tags: [deep learning, artificial intelligence, projects]

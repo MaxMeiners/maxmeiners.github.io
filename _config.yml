@@ -20,14 +20,14 @@ author: Max Meiners
 ###############################################
 
 navbar-links:
-  About Me: "2024-09-12-about-me"
+  About Me: "2024-10-11-about-me"
   Projects:
     - Machine Learning: "machine_learning"
     - Computer Vision: "computer_vision"
-    - Robotics: "2024-09-13-robotics-npec"
+    - Robotics: "2024-02-17-robotics-npec"
     - Data Visualization: "data_visualization"
     - Deep Learning: "deep_learning"
-    - NLP: "natural_language_processing"
+    - NLP: "2024-04-27-emotion-classification-banijay"
     # - ADS&AI year 1: "projects-year-1"
     # - ADS&AI year 2: "projects-year-2"
 

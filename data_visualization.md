@@ -2,9 +2,9 @@
 layout: page
 title: Data Visualization Projects
 subtitle: A collection of my data visualization projects
-cover-img: /assets/img/ai_cover_photo.jpg
+cover-img: /assets/img/data_visualization.jpg
 # thumbnail-img: /assets/img/Cropped_Image.png
-share-img: /assets/img/ai_cover_photo.jpg
+share-img: /assets/img/data_visualization.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
 tags: [data visualization, data science, projects]

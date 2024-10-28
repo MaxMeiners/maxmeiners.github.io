@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Machine Learning Projects
-subtitle: A collection of my machine learning projects
+title: Computer Vision Projects
+subtitle: A collection of my computer vision projects
 cover-img: /assets/img/ai_cover_photo.jpg
 # thumbnail-img: /assets/img/Cropped_Image.png
 share-img: /assets/img/ai_cover_photo.jpg
