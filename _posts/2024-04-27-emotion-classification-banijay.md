@@ -2,9 +2,9 @@
 layout: page
 title: Advanced Emotion Classification System for Banijay
 subtitle: Developing an AI-driven emotion classification system using NLP and machine learning
-cover-img: /assets/img/ai_cover_photo.jpg
+cover-img: /assets/img/ai_cover.jpg
 thumbnail-img: /assets/img/banijay_thumbnail.png
-share-img: /assets/img/ai_cover_photo.jpg
+share-img: /assets/img/ai_cover.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
 tags: [NLP, machine learning, emotion classification, projects]

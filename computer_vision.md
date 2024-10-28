@@ -2,9 +2,9 @@
 layout: page
 title: Computer Vision Projects
 subtitle: A collection of my computer vision projects
-cover-img: /assets/img/ai_cover_photo.jpg
+cover-img: /assets/img/ai_cover.jpg
 # thumbnail-img: /assets/img/Cropped_Image.png
-share-img: /assets/img/ai_cover_photo.jpg
+share-img: /assets/img/ai_cover.jpg
 gh-repo: maxmeiners
 gh-badge: [star, fork, follow]
 tags: [computer vision, data science, deep learning, artificial intelligence, projects]
